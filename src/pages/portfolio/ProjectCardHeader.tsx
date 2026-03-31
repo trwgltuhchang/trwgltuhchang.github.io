@@ -1,5 +1,5 @@
-import { Calendar, Users, Star, FolderGit2 } from "lucide-react";
-import { MONO_FONT, TEXT_PRIMARY, TEXT_MUTED, AMBER } from "@/constants/theme";
+import { Calendar, Users, Star, FolderGit2, Trophy } from "lucide-react";
+import { MONO_FONT, TEXT_PRIMARY, TEXT_MUTED } from "@/constants/theme";
 import type { CategoryColors, ProjectWithCategory } from "./portfolioConstants";
 
 interface ProjectCardHeaderProps {
@@ -129,17 +129,24 @@ const ProjectCardHeader = ({
                display: "inline-flex",
                alignItems: "center",
                gap: 6,
-               padding: "4px 10px",
-               borderRadius: 6,
-               background: "rgba(245,158,11,0.08)",
-               border: "1px solid rgba(245,158,11,0.15)",
+               padding: "6px 12px",
+               borderRadius: 999,
+               background:
+                  "linear-gradient(135deg, rgba(255,214,10,0.28), rgba(255,184,0,0.18))",
+               border: "1px solid rgba(255,214,10,0.6)",
+               boxShadow:
+                  "0 0 0 1px rgba(255,230,120,0.15) inset, 0 8px 24px rgba(255,196,0,0.18), 0 0 20px rgba(255,214,10,0.12)",
                fontSize: 11,
-               fontWeight: 600,
-               color: AMBER,
+               fontWeight: 700,
+               color: "#fff1a6",
+               letterSpacing: "0.03em",
+               textTransform: "uppercase",
                marginBottom: 12,
                alignSelf: "flex-start",
             }}
+            aria-label={data.achievement}
          >
+            <Trophy size={12} style={{ color: "#ffd60a", flexShrink: 0 }} />
             {data.achievement}
          </div>
       )}

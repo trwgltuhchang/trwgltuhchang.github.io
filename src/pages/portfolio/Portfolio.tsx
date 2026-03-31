@@ -16,7 +16,7 @@ import ProjectTimeline from "./ProjectTimeline";
 import OpenSourceBanner from "./OpenSourceBanner";
 
 const Portfolio = () => {
-   const [activeFilter, setActiveFilter] = useState<string>("Featured");
+   const [activeFilter, setActiveFilter] = useState<string>("All");
 
    const handleFilterChange = useCallback((filter: string) => {
       if (document.startViewTransition) {

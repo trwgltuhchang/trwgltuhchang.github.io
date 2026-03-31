@@ -1,0 +1,68 @@
+[
+   {
+      "id": 1,
+      "title": "Full-Stack Development",
+      "list": [
+         "Responsive interface design",
+         "Reusable components",
+         "Static and interactive web pages",
+         "Clean content architecture",
+         "Frontend polish and iteration"
+      ]
+   },
+   {
+      "id": 2,
+      "title": "Cloud & DevOps",
+      "list": [
+         "GitHub Pages deployment",
+         "CI/CD workflow setup",
+         "Release automation",
+         "Basic hosting configuration",
+         "Deployment troubleshooting"
+      ]
+   },
+   {
+      "id": 3,
+      "title": "AI/ML & MLOps",
+      "list": [
+         "AI-assisted workflow experimentation",
+         "Prompt iteration",
+         "Automation exploration",
+         "Data storytelling",
+         "Practical experimentation"
+      ]
+   },
+   {
+      "id": 4,
+      "title": "AI Agents & Tooling",
+      "list": [
+         "Developer workflow improvements",
+         "Tool evaluation",
+         "Small automation helpers",
+         "Productivity-oriented experiments",
+         "AI-enabled prototyping"
+      ]
+   },
+   {
+      "id": 5,
+      "title": "Cloud Consulting",
+      "list": [
+         "Architecture review",
+         "Portfolio structure planning",
+         "Platform selection",
+         "Deployment decisions",
+         "Practical implementation tradeoffs"
+      ]
+   },
+   {
+      "id": 6,
+      "title": "Competitive Programming",
+      "list": [
+         "Analytical problem solving",
+         "Debugging under pressure",
+         "Pattern recognition",
+         "Iterative improvement",
+         "Clear technical communication"
+      ]
+   }
+]

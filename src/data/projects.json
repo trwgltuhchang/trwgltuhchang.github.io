@@ -1,0 +1,93 @@
+{
+   "featured_projects": [
+      {
+         "id": 1,
+         "title": "Portfolio Website",
+         "description": "This repository itself. A GitHub Pages portfolio adapted from a React template and prepared for your own content.",
+         "date": "March 2026",
+         "tools_tech": ["React", "Vite", "Tailwind CSS", "GitHub Pages"],
+         "features": [
+            "Single-page portfolio layout",
+            "Data-driven content through JSON files",
+            "Animated sections and GitHub activity view",
+            "GitHub Actions deployment"
+         ],
+         "github": "https://github.com/trwgltuhchang/trwgltuhchang.github.io",
+         "live": "https://trwgltuhchang.github.io/"
+      },
+      {
+         "id": 2,
+         "title": "Featured Project Placeholder",
+         "description": "Replace this card with your strongest project. Use one sentence to explain what it does and why it matters.",
+         "date": "Add date",
+         "tools_tech": ["Add", "Your", "Stack"],
+         "features": [
+            "Add a standout feature",
+            "Add a measurable outcome",
+            "Add a technical challenge you solved"
+         ],
+         "github": "https://github.com/trwgltuhchang",
+         "live": ""
+      }
+   ],
+   "collaborative_projects": [
+      {
+         "id": 3,
+         "title": "Collaboration Placeholder",
+         "description": "Use this section for a team project, internship deliverable, hackathon entry, or campus collaboration.",
+         "date": "Add date",
+         "tools_tech": ["React", "Git", "Team workflow"],
+         "features": [
+            "Describe your role",
+            "Describe what the team built",
+            "Describe the outcome or audience"
+         ],
+         "github": "https://github.com/trwgltuhchang",
+         "live": "",
+         "team": "Add team name",
+         "organization": "Add organization name",
+         "contributors": ["trwgltuhchang", "Add teammates"]
+      }
+   ],
+   "other_projects": [
+      {
+         "id": 4,
+         "title": "Experiment or Mini Project",
+         "description": "A smaller build that shows range, curiosity, or a specific technical skill you want to highlight.",
+         "date": "Add date",
+         "tools_tech": ["JavaScript", "CSS", "API"],
+         "features": [
+            "Call out one interaction detail",
+            "Call out one implementation decision",
+            "Call out one thing you learned"
+         ],
+         "github": "https://github.com/trwgltuhchang",
+         "live": ""
+      }
+   ],
+   "community_projects": [
+      {
+         "id": 5,
+         "title": "Community Contribution Placeholder",
+         "description": "Use this slot for club work, documentation, volunteer projects, or contributions that are more community-facing.",
+         "date": "Add date",
+         "tools_tech": ["Docs", "GitHub", "Community"],
+         "features": [
+            "Describe the community served",
+            "Describe what you shipped or improved",
+            "Describe the impact or reach"
+         ],
+         "github": "https://github.com/trwgltuhchang",
+         "live": ""
+      }
+   ],
+   "open_source_contributions": [
+      {
+         "repo": "trwgltuhchang/trwgltuhchang.github.io",
+         "title": "Initial template adaptation and GitHub Pages setup",
+         "url": "https://github.com/trwgltuhchang/trwgltuhchang.github.io",
+         "status": "Published",
+         "note": "Replace this with real pull requests or public contributions when available."
+      }
+   ]
+}

@@ -1,0 +1,45 @@
+{
+   "name": "Trang Truong",
+   "title": "Personal Portfolio",
+   "location": "Open to new opportunities",
+   "contact": {
+      "email": "trangtruong.071105@gmail.com",
+      "phone": "",
+      "linkedin": "",
+      "github": "trwgltuhchang"
+   },
+   "roles": [
+      "Portfolio owner",
+      "Builder in progress",
+      "React and Vite learner",
+      "Open source profile curator"
+   ],
+   "about": {
+      "greeting": "Hi, my name is Trang Truong.",
+      "current_role": "This portfolio is currently being customized from a React template for GitHub Pages.",
+      "specialization": "Use this section to describe your focus areas, technical strengths, and the kind of work you want to be known for.",
+      "education": "Replace this line with your school, training, certifications, or the learning path that best represents you.",
+      "competitive_programming": "Swap this card with any additional highlight: research, freelance work, leadership, awards, or a short personal statement."
+   },
+   "statistics": {
+      "projects": "4",
+      "sections": "9",
+      "starter_template": "1",
+      "github_pages": "1"
+   },
+   "languages": [
+      { "name": "English", "level": "Professional Working" }
+   ],
+   "social_profiles": [
+      {
+         "id": 1,
+         "name": "GitHub",
+         "link": "https://github.com/trwgltuhchang",
+         "icon": "FaGithub"
+      }
+   ],
+   "site": {
+      "counter_namespace": "trwgltuhchang-portfolio",
+      "tech_stack": ["React 19", "Vite 7", "Tailwind v4", "Three.js", "Motion"]
+   }
+}

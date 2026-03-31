@@ -1,0 +1,56 @@
+{
+   "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML/CSS"
+   ],
+   "frontend": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Three.js",
+      "Motion"
+   ],
+   "backend": [
+      "Node.js",
+      "REST API",
+      "JSON data modeling",
+      "GitHub Actions"
+   ],
+   "cloud_devops": [
+      "GitHub Pages",
+      "Static site deployment",
+      "GitHub Actions",
+      "Version control",
+      "CI/CD basics"
+   ],
+   "ai_ml": [
+      "Prompt engineering",
+      "AI tooling exploration",
+      "Automation workflows"
+   ],
+   "tools_platforms": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "Chrome DevTools"
+   ],
+   "cs_fundamentals": [
+      "Responsive design",
+      "Component architecture",
+      "Accessibility basics"
+   ],
+   "soft_skills": [
+      "Communication",
+      "Problem Solving",
+      "Teamwork",
+      "Adaptability"
+   ],
+   "areas_of_interest": [
+      "Frontend development",
+      "Personal branding on the web",
+      "Open source",
+      "Interactive UI"
+   ]
+}

@@ -1,0 +1,44 @@
+{
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Portfolio Setup Placeholder",
+      "type": "Industry Certification",
+      "issuer": "Replace with your real issuer",
+      "issueDate": "2026-03-30",
+      "badgeId": "starter-badge-1",
+      "badgeUrl": "https://www.credly.com/",
+      "level": "Starter",
+      "imageUrl": "/badge-placeholder.svg"
+    }
+  ],
+  "learning_badges": [
+    {
+      "id": 1,
+      "name": "Learning Badge Placeholder",
+      "type": "Learning Badge",
+      "issuer": "Replace with your real issuer",
+      "issueDate": "2026-03-30",
+      "badgeId": "starter-learning-1",
+      "badgeUrl": "https://www.credly.com/",
+      "imageUrl": "/badge-placeholder.svg"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Portfolio launched on GitHub Pages",
+      "organizer": "GitHub",
+      "date": "March 2026",
+      "type": "Milestone"
+    },
+    {
+      "id": 2,
+      "title": "Template adapted for personal use",
+      "organizer": "Self-directed project",
+      "date": "March 2026",
+      "type": "Project"
+    }
+  ],
+  "coding_platform_stats": {}
+}

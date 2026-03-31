@@ -1,0 +1,26 @@
+{
+   "contact_options": [
+      {
+         "id": 1,
+         "icon": "MdOutlineEmail",
+         "title": "Email Me",
+         "value": "trangtruong.071105@gmail.com",
+         "link": "mailto:trangtruong.071105@gmail.com",
+         "message": "Send a Mail"
+      },
+      {
+         "id": 2,
+         "icon": "FiGithub",
+         "title": "GitHub",
+         "value": "trwgltuhchang",
+         "link": "https://github.com/trwgltuhchang",
+         "message": "Follow"
+      }
+   ],
+   "email_config": {
+      "service_id": "",
+      "template_id": "",
+      "public_key": "",
+      "validation_pattern": "/^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$/"
+   }
+}

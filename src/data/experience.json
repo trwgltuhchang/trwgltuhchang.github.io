@@ -1,0 +1,56 @@
+{
+   "professional_experience": [
+      {
+         "id": 1,
+         "date": "Add your latest role",
+         "title": "Role title",
+         "position": "Full-time, internship, freelance, or volunteer",
+         "company": "Company or organization",
+         "location": "Location",
+         "summary": "Replace this summary with the work you did, the outcome you created, and the context that makes it meaningful.",
+         "skills": ["React", "TypeScript", "GitHub", "Communication"],
+         "projects": [
+            {
+               "name": "Project or responsibility",
+               "date": "Add dates",
+               "description": {
+                  "1": "Describe one concrete responsibility or outcome.",
+                  "2": "Add a second point with measurable impact if possible.",
+                  "3": "Highlight one tool, system, or process you improved."
+               },
+               "skills": ["React", "TypeScript", "GitHub"]
+            }
+         ],
+         "internal_contributions": [
+            {
+               "title": "Presentation, publication, or workshop",
+               "type": "talk",
+               "year": "2026"
+            }
+         ],
+         "internal_achievements": [
+            {
+               "title": "Recognition, milestone, or award",
+               "type": "program",
+               "year": "2026"
+            }
+         ]
+      }
+   ],
+   "positions_of_responsibility": [
+      {
+         "id": 1,
+         "date": "Add dates",
+         "title": "Leadership or community role",
+         "position": "",
+         "company": "Club, team, or organization",
+         "location": "Location",
+         "summary": "Use this section for leadership, volunteer work, student organizations, or community involvement.",
+         "description": {
+            "1": "Describe a responsibility you owned.",
+            "2": "Describe a result you achieved with others."
+         },
+         "skills": ["Communication", "Leadership", "Teamwork"]
+      }
+   ]
+}

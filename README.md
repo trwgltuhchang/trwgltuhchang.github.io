@@ -1,32 +1,44 @@
 # Trang Truong Portfolio
 
-Static GitHub Pages starter for a personal `username.github.io` site.
+Personal portfolio site deployed at `https://trwgltuhchang.github.io/`.
 
-## Files
+This repo is adapted from the `Sagargupta16/portfolio-react` template. The upstream project is GPL-3.0 licensed, so this repo keeps the same license.
 
-- `index.html`: page structure and editable content
-- `styles.css`: layout, color system, responsive styling, motion
-- `script.js`: scroll reveal behavior
-
-## Customize
-
-1. Update the copy in `index.html`.
-2. Replace the placeholder project links and contact links.
-3. Change the page title and metadata if needed.
-
-## Publish To GitHub Pages
-
-1. Create a GitHub repository named `yourusername.github.io`.
-2. Copy these files into that repo, or rename this folder and initialize git here.
-3. Commit and push:
+## Local development
 
 ```bash
-git init
-git add .
-git commit -m "Initial portfolio site"
-git branch -M main
-git remote add origin git@github.com:yourusername/yourusername.github.io.git
-git push -u origin main
+corepack enable
+corepack pnpm install
+corepack pnpm dev
 ```
 
-GitHub will automatically serve the site from `https://yourusername.github.io/`.
+Node `>=24.11.0` is expected by the template.
+
+## Customizing content
+
+Most portfolio content is data-driven. Update these files first:
+
+- `src/data/personal.json`
+- `src/data/education.json`
+- `src/data/experience.json`
+- `src/data/projects.json`
+- `src/data/skills.json`
+- `src/data/services.json`
+- `src/data/achievements.json`
+- `src/data/contact.json`
+
+The current data is safe starter content. It is intentionally generic and should be replaced with your real bio, projects, education, and links.
+
+## Contact form
+
+The contact form UI is enabled, but message sending is intentionally disabled until you configure EmailJS.
+
+1. Copy `.env.example` to `.env.local`
+2. Add your EmailJS values
+3. Replace the placeholder values in `src/data/contact.json` if needed
+
+Until then, the form will show a configuration message instead of trying to send mail.
+
+## Deployment
+
+GitHub Actions builds and deploys the site to GitHub Pages on pushes to `main`.

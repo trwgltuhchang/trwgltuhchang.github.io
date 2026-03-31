@@ -1,0 +1,31 @@
+[
+   {
+      "id": 1,
+      "date": "Add your timeline",
+      "title": "Your most relevant degree or program",
+      "institution": "School or organization name",
+      "institutionType": "University, bootcamp, certification, or self-directed learning",
+      "department": "Department or concentration",
+      "location": "City, State or Country",
+      "cgpa": "",
+      "percentage": "",
+      "display_text": "Replace with your primary education entry",
+      "achievements": [
+         "Add one academic or learning milestone here",
+         "Add another achievement, award, or distinction here"
+      ],
+      "skills": ["Research", "Communication", "Project work"]
+   },
+   {
+      "id": 2,
+      "date": "Add another timeline",
+      "title": "Another credential or milestone",
+      "institution": "Organization name",
+      "institutionType": "Course, fellowship, internship prep, or school",
+      "location": "Location",
+      "cgpa": "",
+      "percentage": "",
+      "display_text": "Optional second education entry",
+      "skills": ["Teamwork", "Documentation", "Presentation"]
+   }
+]

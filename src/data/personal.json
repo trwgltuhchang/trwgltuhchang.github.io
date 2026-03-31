@@ -19,11 +19,11 @@
       "current_role": "I am an undergraduate researcher at BullyBlocker, where I optimize LLM-based cyberbullying detection, build explainable NLP workflows, and design AI systems for safer online interactions.",
       "specialization": "My work focuses on machine learning, NLP, retrieval-augmented systems, multimodal AI, and practical deployment using tools like FastAPI, Docker, FAISS, Hugging Face, and cloud APIs.",
       "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.83 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
-      "competitive_programming": "Recent highlights include winning Rice Datathon 2026 with EduTag and winning Vandyhacks XII with WALL-E, two projects centered on real-world AI systems."
+      "competitive_programming": "Recent highlights include three hackathon wins with WALL-E, EduTag, and ThreeByte, along with project work like ChronosVR centered on real-world AI systems."
    },
    "statistics": {
       "gpa": "3.83",
-      "hackathon_wins": "2",
+      "hackathon_wins": "3",
       "projects": "9",
       "research_roles": "1"
    },

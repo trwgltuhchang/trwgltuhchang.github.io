@@ -21,32 +21,32 @@
          "github": "https://github.com/GitCat8383/robot-utility-test",
          "live": "",
          "demo": "https://www.youtube.com/watch?v=nJj4RPRUzgw",
+         "achievement": "Winner · Vandyhacks XII",
          "team": "Vandyhacks XII Team",
          "organization": "Vandyhacks XII"
       },
       {
          "id": 2,
-         "title": "LyoText",
-         "description": "EEG-assisted communication system that turns brain signals into text with AI-assisted intent decoding and smart word suggestions.",
-         "date": "February 2026",
+         "title": "ThreeByte",
+         "description": "Open-source case management platform for nonprofits to track clients, cases, and finances in one affordable system.",
+         "date": "March 2026",
          "tools_tech": [
-            "EEGNet",
-            "FastAPI",
-            "React",
-            "Redis",
-            "Gemini"
+            "TypeScript",
+            "Next.js",
+            "Supabase",
+            "Vercel"
          ],
          "features": [
-            "Built for Hacklytics 2026: Golden Byte to support users with limited speech or movement",
-            "Combined EEGNet, FastAPI, React, Redis, and Gemini-backed assistance",
-            "Reduced communication effort with intent detection and predictive word suggestions",
-            "Demonstrated an accessibility-first AI interface beyond a controlled lab setting"
+            "Built for the Women in Computer Science x Opportunity Hack Spring 2026 Hackathon",
+            "Centralized client records, case workflows, and finance tracking in a single interface",
+            "Shipped as an open-source web product with a deployed demo on Vercel",
+            "Won Top freshman/sophomore team"
          ],
-         "github": "https://github.com/dothanhtam91/LyoText_Final",
-         "live": "",
-         "demo": "https://www.youtube.com/watch?v=b__nb7q0kXw",
-         "team": "Hacklytics 2026 Team",
-         "organization": "Hacklytics 2026: Golden Byte"
+         "github": "https://github.com/2026-ASU-WiCS-Opportunity-Hack/27-three-byte",
+         "live": "https://opportunity-hack-26.vercel.app/",
+         "achievement": "Winner · Top freshman/sophomore team",
+         "team": "WiCS x Opportunity Hack Team",
+         "organization": "Women in Computer Science x Opportunity Hack: Spring 2026 Hackathon"
       },
       {
          "id": 3,
@@ -69,33 +69,56 @@
          "github": "https://github.com/dothanhtam91/OpenStax---2026-Rice-Datathon-Mapping-Sta",
          "live": "",
          "demo": "https://www.youtube.com/watch?v=qcr_z5XwHJ8",
+         "achievement": "Winner · OpenStax Track",
          "team": "Rice Datathon Team",
          "organization": "Rice Datathon 2026"
+      },
+      {
+         "id": 7,
+         "title": "ChronosVR",
+         "description": "Generative AI historical simulation platform that turns unstructured source material into interactive 3D experiences with grounded narrative behavior.",
+         "date": "December 2025",
+         "tools_tech": [
+            "Gemini Pro",
+            "PyTorch",
+            "TensorFlow",
+            "C#",
+            "3D Simulation"
+         ],
+         "features": [
+            "Built a multimodal pipeline for interactive historical simulations",
+            "Generated narrative structure and agent behavior from source material",
+            "Added validation layers to keep generated experiences grounded in curated references",
+            "Explored feedback loops to reduce hallucinations and improve reliability"
+         ],
+         "github": "https://github.com/GitCat8383/ChronoVR",
+         "live": ""
       }
    ],
    "collaborative_projects": [
       {
          "id": 4,
-         "title": "ThreeByte",
-         "description": "Open-source case management platform for nonprofits to track clients, cases, and finances in one affordable system.",
-         "date": "March 2026",
+         "title": "LyoText",
+         "description": "EEG-assisted communication system that turns brain signals into text with AI-assisted intent decoding and smart word suggestions.",
+         "date": "February 2026",
          "tools_tech": [
-            "TypeScript",
-            "Next.js",
-            "Supabase",
-            "Vercel"
+            "EEGNet",
+            "FastAPI",
+            "React",
+            "Redis",
+            "Gemini"
          ],
          "features": [
-            "Built for the Women in Computer Science x Opportunity Hack Spring 2026 Hackathon",
-            "Centralized client records, case workflows, and finance tracking in a single interface",
-            "Shipped as an open-source web product with a deployed demo on Vercel",
-            "Won Top freshman/sophomore team"
+            "Built for Hacklytics 2026: Golden Byte to support users with limited speech or movement",
+            "Combined EEGNet, FastAPI, React, Redis, and Gemini-backed assistance",
+            "Reduced communication effort with intent detection and predictive word suggestions",
+            "Demonstrated an accessibility-first AI interface beyond a controlled lab setting"
          ],
-         "github": "https://github.com/2026-ASU-WiCS-Opportunity-Hack/27-three-byte",
-         "live": "https://opportunity-hack-26.vercel.app/",
-         "team": "WiCS x Opportunity Hack Team",
-         "organization": "Women in Computer Science x Opportunity Hack: Spring 2026 Hackathon",
-         "achievement": "Winner · Top freshman/sophomore team"
+         "github": "https://github.com/dothanhtam91/LyoText_Final",
+         "live": "",
+         "demo": "https://www.youtube.com/watch?v=b__nb7q0kXw",
+         "team": "Hacklytics 2026 Team",
+         "organization": "Hacklytics 2026: Golden Byte"
       },
       {
          "id": 5,
@@ -146,27 +169,6 @@
       }
    ],
    "other_projects": [
-      {
-         "id": 7,
-         "title": "ChronosVR",
-         "description": "Generative AI historical simulation platform that turns unstructured source material into interactive 3D experiences with grounded narrative behavior.",
-         "date": "December 2025",
-         "tools_tech": [
-            "Gemini Pro",
-            "PyTorch",
-            "TensorFlow",
-            "C#",
-            "3D Simulation"
-         ],
-         "features": [
-            "Built a multimodal pipeline for interactive historical simulations",
-            "Generated narrative structure and agent behavior from source material",
-            "Added validation layers to keep generated experiences grounded in curated references",
-            "Explored feedback loops to reduce hallucinations and improve reliability"
-         ],
-         "github": "https://github.com/GitCat8383/ChronoVR",
-         "live": ""
-      },
       {
          "id": 8,
          "title": "Portfolio Website",

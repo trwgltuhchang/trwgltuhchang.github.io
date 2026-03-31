@@ -122,8 +122,8 @@ const ProjectCardHeader = ({
          </div>
       )}
 
-      {/* Achievement badge for collaborative */}
-      {isCollab && data.achievement && (
+      {/* Achievement badge */}
+      {data.achievement && (
          <div
             style={{
                display: "inline-flex",

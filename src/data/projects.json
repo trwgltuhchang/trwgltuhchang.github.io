@@ -2,76 +2,173 @@
    "featured_projects": [
       {
          "id": 1,
+         "title": "WALL-E",
+         "description": "Hands-free assistive robotics system that lets users control a 3D-printed robotic arm with EEG signals, eye gaze, and head movement.",
+         "date": "March 2026",
+         "tools_tech": [
+            "BCI",
+            "Assistive Tech",
+            "Gaze Control",
+            "Depth Estimation",
+            "Robotic Arm"
+         ],
+         "features": [
+            "Built for Vandyhacks XII as an accessibility-first robotics prototype",
+            "Combined brain-computer input, gaze tracking, and depth estimation in one control loop",
+            "Mapped real-time user intent into robotic-arm actions without mouse or keyboard",
+            "Focused on practical assistive interaction for users with limited mobility"
+         ],
+         "github": "https://github.com/GitCat8383/robot-utility-test",
+         "live": "",
+         "demo": "https://www.youtube.com/watch?v=nJj4RPRUzgw",
+         "team": "Vandyhacks XII Team",
+         "organization": "Vandyhacks XII"
+      },
+      {
+         "id": 2,
+         "title": "LyoText",
+         "description": "EEG-assisted communication system that turns brain signals into text with AI-assisted intent decoding and smart word suggestions.",
+         "date": "February 2026",
+         "tools_tech": [
+            "EEGNet",
+            "FastAPI",
+            "React",
+            "Redis",
+            "Gemini"
+         ],
+         "features": [
+            "Built for Hacklytics 2026: Golden Byte to support users with limited speech or movement",
+            "Combined EEGNet, FastAPI, React, Redis, and Gemini-backed assistance",
+            "Reduced communication effort with intent detection and predictive word suggestions",
+            "Demonstrated an accessibility-first AI interface beyond a controlled lab setting"
+         ],
+         "github": "https://github.com/dothanhtam91/LyoText_Final",
+         "live": "",
+         "demo": "https://www.youtube.com/watch?v=b__nb7q0kXw",
+         "team": "Hacklytics 2026 Team",
+         "organization": "Hacklytics 2026: Golden Byte"
+      },
+      {
+         "id": 3,
+         "title": "EduTag",
+         "description": "Award-winning curriculum-alignment system that maps textbook passages to academic standards using transformer-based semantic retrieval and LLM-assisted labeling.",
+         "date": "January 2026",
+         "tools_tech": [
+            "BERT",
+            "Hugging Face",
+            "Kaggle",
+            "TensorFlow",
+            "PyTorch"
+         ],
+         "features": [
+            "Won the OpenStax Track at Rice Datathon 2026",
+            "Aligned textbook content with standards using semantic retrieval and reranking",
+            "Combined experimentation notebooks, model training, and evaluation on Kaggle workflows",
+            "Delivered a practical education AI pipeline for large-scale standards mapping"
+         ],
+         "github": "https://github.com/dothanhtam91/OpenStax---2026-Rice-Datathon-Mapping-Sta",
+         "live": "",
+         "demo": "https://www.youtube.com/watch?v=qcr_z5XwHJ8",
+         "team": "Rice Datathon Team",
+         "organization": "Rice Datathon 2026"
+      }
+   ],
+   "collaborative_projects": [
+      {
+         "id": 4,
+         "title": "ThreeByte",
+         "description": "Open-source case management platform for nonprofits to track clients, cases, and finances in one affordable system.",
+         "date": "March 2026",
+         "tools_tech": [
+            "TypeScript",
+            "Next.js",
+            "Supabase",
+            "Vercel"
+         ],
+         "features": [
+            "Built for the Women in Computer Science x Opportunity Hack Spring 2026 Hackathon",
+            "Centralized client records, case workflows, and finance tracking in a single interface",
+            "Shipped as an open-source web product with a deployed demo on Vercel",
+            "Won Top freshman/sophomore team"
+         ],
+         "github": "https://github.com/2026-ASU-WiCS-Opportunity-Hack/27-three-byte",
+         "live": "https://opportunity-hack-26.vercel.app/",
+         "team": "WiCS x Opportunity Hack Team",
+         "organization": "Women in Computer Science x Opportunity Hack: Spring 2026 Hackathon",
+         "achievement": "Winner · Top freshman/sophomore team"
+      },
+      {
+         "id": 5,
+         "title": "BureauBuddy",
+         "description": "AI assistant for making complex government documents easier to understand through simplified explanations and multimodal guidance.",
+         "date": "February 2026",
+         "tools_tech": [
+            "React",
+            "Python",
+            "Gemini API",
+            "ElevenLabs",
+            "Tailwind CSS"
+         ],
+         "features": [
+            "Built for TIDALHACK:26 to improve public access to difficult government information",
+            "Used AI-generated simplification to translate dense forms and policies into clearer language",
+            "Combined a React front end with Python services and voice support",
+            "Included a recorded walkthrough demonstrating the end-to-end experience"
+         ],
+         "github": "https://github.com/SawyerAlston/BureauBuddy",
+         "live": "",
+         "demo": "https://www.youtube.com/watch?v=m7wurQIRNdI",
+         "team": "TIDALHACK Team",
+         "organization": "TIDALHACK:26"
+      },
+      {
+         "id": 6,
+         "title": "Aidify",
+         "description": "Civic tech platform built to help people navigate services and resources through a more accessible, user-friendly experience.",
+         "date": "October 2025",
+         "tools_tech": [
+            "Wix",
+            "Accessibility",
+            "Civic Tech",
+            "Web Design"
+         ],
+         "features": [
+            "Built for Opportunity Hack 2025 at the ASU Fall Hackathon in Tempe",
+            "Designed a more approachable web experience for people seeking support resources",
+            "Delivered both a public site and a recorded demo walkthrough",
+            "Backed by a team codebase published on GitHub"
+         ],
+         "github": "https://github.com/2025-Arizona-Opportunity-Hack/Aidify-NMTSAWebsite",
+         "live": "https://thanhhuy062.wixsite.com/mysite-2",
+         "demo": "https://www.youtube.com/watch?v=d--tCbRyV_c",
+         "team": "Opportunity Hack Team",
+         "organization": "Opportunity Hack 2025 | ASU Fall Hackathon 2025 | Tempe Arizona - Oct 11-12"
+      }
+   ],
+   "other_projects": [
+      {
+         "id": 7,
          "title": "ChronosVR",
-         "description": "A generative AI historical simulation platform that turns unstructured historical material into interactive 3D experiences with grounded narrative and agent behavior.",
+         "description": "Generative AI historical simulation platform that turns unstructured source material into interactive 3D experiences with grounded narrative behavior.",
          "date": "December 2025",
          "tools_tech": [
-            "Veo 3",
             "Gemini Pro",
             "PyTorch",
             "TensorFlow",
-            "C#"
+            "C#",
+            "3D Simulation"
          ],
          "features": [
-            "C#-based multimodal GenAI pipeline for interactive 3D simulations",
-            "Narrative generation with Gemini Pro and agent-driven NPC behavior",
-            "Grounding and evaluation layers that validate against curated historical sources",
-            "Automated feedback loops to reduce hallucinations and improve reliability"
+            "Built a multimodal pipeline for interactive historical simulations",
+            "Generated narrative structure and agent behavior from source material",
+            "Added validation layers to keep generated experiences grounded in curated references",
+            "Explored feedback loops to reduce hallucinations and improve reliability"
          ],
          "github": "https://github.com/GitCat8383/ChronoVR",
          "live": ""
       },
       {
-         "id": 2,
-         "title": "EduTag",
-         "description": "A curriculum-tagging system that uses hybrid retrieval-augmented fine-tuning to align textbook content with curriculum standard codes.",
-         "date": "January 2026",
-         "tools_tech": [
-            "Bi-Encoder",
-            "Cross-Encoder",
-            "all-mpnet-base-v2",
-            "FAISS",
-            "Gemini API"
-         ],
-         "features": [
-            "Hybrid RAFT pipeline for semantic alignment of textbook content and standards",
-            "41.5% exact match accuracy and 0.026 Hamming Loss across 156 standard codes",
-            "Gemini-powered augmentation pipeline that generated 1,000+ synthetic samples",
-            "Expanded label coverage from 76 to 156 curriculum codes"
-         ],
-         "github": "",
-         "live": "https://devpost.com/software/edutag"
-      }
-   ],
-   "collaborative_projects": [
-      {
-         "id": 3,
-         "title": "WALL-E",
-         "description": "A multimodal assistive robotic system that combines EEG, eye gaze, head movement, computer vision, and inverse kinematics for hands-free object manipulation.",
-         "date": "March 2026",
-         "tools_tech": [
-            "YOLOv8",
-            "EEG",
-            "Computer Vision",
-            "Inverse Kinematics",
-            "Robotics"
-         ],
-         "features": [
-            "Central state machine fusing EEG jaw clench, eye gaze, and head movement into one control pipeline",
-            "Backend integration across YOLOv8 detection, Muse 2 EEG decoding, and webcam head tracking",
-            "Real-time intent recognition mapped into robotic arm actions",
-            "Assistive design for patients with paralysis or ALS"
-         ],
-         "github": "",
-         "live": "https://devpost.com/software/wall-e-w8lp7k",
-         "team": "Vandyhacks XII Team",
-         "organization": "Vandyhacks XII",
-         "contributors": ["Trang Truong", "Hackathon Team"]
-      }
-   ],
-   "other_projects": [
-      {
-         "id": 4,
+         "id": 8,
          "title": "Portfolio Website",
          "description": "A personal GitHub Pages portfolio built from a React template and customized to present research, experience, projects, and achievements from my resume.",
          "date": "March 2026",
@@ -87,7 +184,7 @@
    ],
    "community_projects": [
       {
-         "id": 5,
+         "id": 9,
          "title": "BullyBlocker Research Platform",
          "description": "Research work focused on cyberbullying detection, explanation, and AI-generated mediation to support healthier online communities.",
          "date": "July 2025",

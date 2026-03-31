@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ExternalLink } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 import { scaleRotateIn } from "@utils/animations";
 import { MONO_FONT } from "@/constants/theme";
 import {
@@ -17,6 +17,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ data, index = 0 }: ProjectCardProps) => {
    const hasGithub = data.github && data.github !== "" && data.github !== "#";
+   const hasDemo = data.demo && data.demo !== "" && data.demo !== "#";
    const hasLive = data.live && data.live !== "" && data.live !== "#";
    const colors = CATEGORY_COLORS[data.category] || CATEGORY_COLORS.Others;
    const isFeatured = data.category === "Featured";
@@ -118,11 +119,12 @@ const ProjectCard = ({ data, index = 0 }: ProjectCardProps) => {
             </div>
 
             {/* Links */}
-            {(hasGithub || hasLive) && (
+            {(hasGithub || hasDemo || hasLive) && (
                <div
                   style={{
                      display: "flex",
                      gap: 8,
+                     flexWrap: "wrap",
                      paddingTop: 14,
                      borderTop: "1px solid rgba(255,255,255,0.04)",
                   }}
@@ -133,6 +135,15 @@ const ProjectCard = ({ data, index = 0 }: ProjectCardProps) => {
                         label="Source"
                         ariaLabel={`View ${data.title} on GitHub`}
                         icon={FaGithub}
+                        accentColor={colors.accent}
+                     />
+                  )}
+                  {hasDemo && (
+                     <ProjectLink
+                        href={data.demo!}
+                        label="Demo Video"
+                        ariaLabel={`Watch the ${data.title} demo video`}
+                        icon={FaYoutube}
                         accentColor={colors.accent}
                      />
                   )}

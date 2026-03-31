@@ -173,6 +173,8 @@ export interface Project {
    features: string[];
    github: string;
    live: string;
+   demo?: string;
+   achievement?: string;
    team?: string;
    organization?: string;
    contributors?: string[];

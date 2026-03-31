@@ -3,10 +3,10 @@ import { staggerContainer, rotateInUp } from "@utils/animations";
 import AnimatedCounter from "@components/ui/AnimatedCounter";
 
 const STAT_LABELS: Record<string, string> = {
-   coding_questions: "Problems Solved",
    leetcode_rating: "LeetCode Rating",
+   leetcode_level: "LeetCode Level",
+   leetcode_top_percent: "Top LeetCoder %",
    projects: "Projects",
-   contests: "Contests",
    industry_certifications: "Certifications",
    open_source_prs: "Open Source PRs",
 };

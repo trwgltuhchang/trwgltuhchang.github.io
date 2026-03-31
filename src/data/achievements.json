@@ -18,6 +18,13 @@
     },
     {
       "id": 3,
+      "title": "Winner - WiCS x Opportunity Hack Spring 2026 (ThreeByte)",
+      "organizer": "Women in Computer Science x Opportunity Hack",
+      "date": "March 2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 4,
       "title": "Knight Badge - LeetCode",
       "organizer": "LeetCode",
       "date": "March 2026",
@@ -40,10 +47,8 @@
       "displayStats": [
         "best_rating",
         "badge",
-        "problems_solved",
-        "contests",
-        "global_ranking",
         "top_percentage",
+        "global_ranking",
         "easy_solved",
         "medium_solved",
         "hard_solved"

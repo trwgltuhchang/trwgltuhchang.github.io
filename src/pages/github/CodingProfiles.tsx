@@ -27,7 +27,7 @@ const PLATFORM_CONFIG: Record<
       color: AMBER,
       icon: Trophy,
       highlight: (s) => `${s.best_rating} ${s.badge}`,
-      subtitle: (s) => `${s.problems_solved} solved | ${s.contests} contests`,
+      subtitle: (s) => `Top ${s.top_percentage}% LeetCoder`,
    },
    geeksforgeeks: {
       label: "GeeksforGeeks",

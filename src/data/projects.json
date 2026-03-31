@@ -2,80 +2,100 @@
    "featured_projects": [
       {
          "id": 1,
-         "title": "Portfolio Website",
-         "description": "This repository itself. A GitHub Pages portfolio adapted from a React template and prepared for your own content.",
-         "date": "March 2026",
-         "tools_tech": ["React", "Vite", "Tailwind CSS", "GitHub Pages"],
-         "features": [
-            "Single-page portfolio layout",
-            "Data-driven content through JSON files",
-            "Animated sections and GitHub activity view",
-            "GitHub Actions deployment"
+         "title": "ChronosVR",
+         "description": "A generative AI historical simulation platform that turns unstructured historical material into interactive 3D experiences with grounded narrative and agent behavior.",
+         "date": "December 2025",
+         "tools_tech": [
+            "Veo 3",
+            "Gemini Pro",
+            "PyTorch",
+            "TensorFlow",
+            "C#"
          ],
-         "github": "https://github.com/trwgltuhchang/trwgltuhchang.github.io",
-         "live": "https://trwgltuhchang.github.io/"
+         "features": [
+            "C#-based multimodal GenAI pipeline for interactive 3D simulations",
+            "Narrative generation with Gemini Pro and agent-driven NPC behavior",
+            "Grounding and evaluation layers that validate against curated historical sources",
+            "Automated feedback loops to reduce hallucinations and improve reliability"
+         ],
+         "github": "https://github.com/GitCat8383/ChronoVR",
+         "live": ""
       },
       {
          "id": 2,
-         "title": "Featured Project Placeholder",
-         "description": "Replace this card with your strongest project. Use one sentence to explain what it does and why it matters.",
-         "date": "Add date",
-         "tools_tech": ["Add", "Your", "Stack"],
-         "features": [
-            "Add a standout feature",
-            "Add a measurable outcome",
-            "Add a technical challenge you solved"
+         "title": "EduTag",
+         "description": "A curriculum-tagging system that uses hybrid retrieval-augmented fine-tuning to align textbook content with curriculum standard codes.",
+         "date": "January 2026",
+         "tools_tech": [
+            "Bi-Encoder",
+            "Cross-Encoder",
+            "all-mpnet-base-v2",
+            "FAISS",
+            "Gemini API"
          ],
-         "github": "https://github.com/trwgltuhchang",
-         "live": ""
+         "features": [
+            "Hybrid RAFT pipeline for semantic alignment of textbook content and standards",
+            "41.5% exact match accuracy and 0.026 Hamming Loss across 156 standard codes",
+            "Gemini-powered augmentation pipeline that generated 1,000+ synthetic samples",
+            "Expanded label coverage from 76 to 156 curriculum codes"
+         ],
+         "github": "",
+         "live": "https://devpost.com/software/edutag"
       }
    ],
    "collaborative_projects": [
       {
          "id": 3,
-         "title": "Collaboration Placeholder",
-         "description": "Use this section for a team project, internship deliverable, hackathon entry, or campus collaboration.",
-         "date": "Add date",
-         "tools_tech": ["React", "Git", "Team workflow"],
-         "features": [
-            "Describe your role",
-            "Describe what the team built",
-            "Describe the outcome or audience"
+         "title": "WALL-E",
+         "description": "A multimodal assistive robotic system that combines EEG, eye gaze, head movement, computer vision, and inverse kinematics for hands-free object manipulation.",
+         "date": "March 2026",
+         "tools_tech": [
+            "YOLOv8",
+            "EEG",
+            "Computer Vision",
+            "Inverse Kinematics",
+            "Robotics"
          ],
-         "github": "https://github.com/trwgltuhchang",
-         "live": "",
-         "team": "Add team name",
-         "organization": "Add organization name",
-         "contributors": ["trwgltuhchang", "Add teammates"]
+         "features": [
+            "Central state machine fusing EEG jaw clench, eye gaze, and head movement into one control pipeline",
+            "Backend integration across YOLOv8 detection, Muse 2 EEG decoding, and webcam head tracking",
+            "Real-time intent recognition mapped into robotic arm actions",
+            "Assistive design for patients with paralysis or ALS"
+         ],
+         "github": "",
+         "live": "https://devpost.com/software/wall-e-w8lp7k",
+         "team": "Vandyhacks XII Team",
+         "organization": "Vandyhacks XII",
+         "contributors": ["Trang Truong", "Hackathon Team"]
       }
    ],
    "other_projects": [
       {
          "id": 4,
-         "title": "Experiment or Mini Project",
-         "description": "A smaller build that shows range, curiosity, or a specific technical skill you want to highlight.",
-         "date": "Add date",
-         "tools_tech": ["JavaScript", "CSS", "API"],
+         "title": "Portfolio Website",
+         "description": "A personal GitHub Pages portfolio built from a React template and customized to present research, experience, projects, and achievements from my resume.",
+         "date": "March 2026",
+         "tools_tech": ["React", "Vite", "Tailwind CSS", "GitHub Pages"],
          "features": [
-            "Call out one interaction detail",
-            "Call out one implementation decision",
-            "Call out one thing you learned"
+            "Single-page portfolio structure with dedicated sections for resume content",
+            "Live resume download and GitHub Pages deployment workflow",
+            "Data-driven content backed by editable JSON files"
          ],
-         "github": "https://github.com/trwgltuhchang",
-         "live": ""
+         "github": "https://github.com/trwgltuhchang/trwgltuhchang.github.io",
+         "live": "https://trwgltuhchang.github.io/"
       }
    ],
    "community_projects": [
       {
          "id": 5,
-         "title": "Community Contribution Placeholder",
-         "description": "Use this slot for club work, documentation, volunteer projects, or contributions that are more community-facing.",
-         "date": "Add date",
-         "tools_tech": ["Docs", "GitHub", "Community"],
+         "title": "BullyBlocker Research Platform",
+         "description": "Research work focused on cyberbullying detection, explanation, and AI-generated mediation to support healthier online communities.",
+         "date": "July 2025",
+         "tools_tech": ["LLMs", "NLP", "Explainable AI", "Ethical AI"],
          "features": [
-            "Describe the community served",
-            "Describe what you shipped or improved",
-            "Describe the impact or reach"
+            "Improved moderation model quality through multi-LLM integration",
+            "Built explanations for flagged abuse to reduce false positives",
+            "Applied ethical AI techniques to a real social-impact problem"
          ],
          "github": "https://github.com/trwgltuhchang",
          "live": ""
@@ -84,10 +104,10 @@
    "open_source_contributions": [
       {
          "repo": "trwgltuhchang/trwgltuhchang.github.io",
-         "title": "Initial template adaptation and GitHub Pages setup",
+         "title": "Personal portfolio deployment and resume-driven site customization",
          "url": "https://github.com/trwgltuhchang/trwgltuhchang.github.io",
          "status": "Published",
-         "note": "Replace this with real pull requests or public contributions when available."
+         "note": "Current public codebase for portfolio work and project presentation."
       }
    ]
 }

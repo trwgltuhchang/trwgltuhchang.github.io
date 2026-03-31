@@ -24,6 +24,10 @@ const Achievement = () => {
       [rawCertifications],
    );
 
+   const hasCertifications = certifications.length > 0;
+   const hasLearningBadges = learningBadges.length > 0;
+   const hasAchievements = achievements.length > 0;
+
    return (
       <PageSection
          id="achievements"
@@ -39,9 +43,13 @@ const Achievement = () => {
                gap: 56,
             }}
          >
-            <CertBadgeShowcase certifications={certifications} />
-            <BadgesSection badges={learningBadges} />
-            <CompetitionsSection achievements={achievements} />
+            {hasCertifications && (
+               <CertBadgeShowcase certifications={certifications} />
+            )}
+            {hasLearningBadges && <BadgesSection badges={learningBadges} />}
+            {hasAchievements && (
+               <CompetitionsSection achievements={achievements} />
+            )}
          </div>
       </PageSection>
    );

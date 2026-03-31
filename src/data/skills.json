@@ -1,56 +1,83 @@
 {
    "languages": [
+      "Python",
+      "SQL",
+      "C++",
+      "C#",
       "TypeScript",
       "JavaScript",
       "HTML/CSS"
    ],
    "frontend": [
+      "Next.js",
       "React",
       "Vite",
       "Tailwind CSS",
       "Three.js",
-      "Motion"
+      "Motion",
+      "Plotly",
+      "Tableau"
    ],
    "backend": [
+      "FastAPI",
       "Node.js",
       "REST API",
-      "JSON data modeling",
-      "GitHub Actions"
+      "PostgreSQL",
+      "MySQL",
+      "Supabase"
    ],
    "cloud_devops": [
-      "GitHub Pages",
-      "Static site deployment",
-      "GitHub Actions",
-      "Version control",
-      "CI/CD basics"
+      "AWS Lambda",
+      "Databricks",
+      "Spark",
+      "Docker",
+      "Vercel",
+      "GitHub Pages"
    ],
    "ai_ml": [
-      "Prompt engineering",
-      "AI tooling exploration",
-      "Automation workflows"
+      "PyTorch",
+      "TensorFlow",
+      "HuggingFace Transformers",
+      "RAG",
+      "Semantic Search",
+      "LLMs",
+      "Computer Vision (YOLOv8)",
+      "Multimodal AI",
+      "Responsible AI",
+      "Agentic AI",
+      "FAISS"
    ],
    "tools_platforms": [
       "Git",
       "GitHub",
       "VS Code",
-      "Figma",
-      "Chrome DevTools"
+      "Jupyter Notebook",
+      "OpenCV",
+      "Google Gemini API",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy"
    ],
    "cs_fundamentals": [
-      "Responsive design",
-      "Component architecture",
-      "Accessibility basics"
+      "Data Structures & Algorithms",
+      "Software Engineering",
+      "System Design",
+      "Business Statistics"
    ],
    "soft_skills": [
       "Communication",
+      "Analytical Thinking",
       "Problem Solving",
       "Teamwork",
+      "Leadership",
       "Adaptability"
    ],
    "areas_of_interest": [
-      "Frontend development",
-      "Personal branding on the web",
-      "Open source",
-      "Interactive UI"
+      "Machine Learning",
+      "NLP",
+      "Generative AI",
+      "Responsible AI",
+      "Multimodal Systems",
+      "Data Analytics"
    ]
 }

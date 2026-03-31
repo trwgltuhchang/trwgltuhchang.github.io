@@ -1,31 +1,25 @@
 [
    {
       "id": 1,
-      "date": "Add your timeline",
-      "title": "Your most relevant degree or program",
-      "institution": "School or organization name",
-      "institutionType": "University, bootcamp, certification, or self-directed learning",
-      "department": "Department or concentration",
-      "location": "City, State or Country",
-      "cgpa": "",
+      "date": "August 2023 - December 2026",
+      "title": "Bachelor of Science, Business Data Analytics",
+      "institution": "Arizona State University",
+      "institutionType": "University",
+      "department": "Business Data Analytics",
+      "location": "Arizona, United States",
+      "cgpa": "3.83",
       "percentage": "",
-      "display_text": "Replace with your primary education entry",
+      "display_text": "Arizona State University",
       "achievements": [
-         "Add one academic or learning milestone here",
-         "Add another achievement, award, or distinction here"
+         "GPA: 3.83",
+         "Coursework includes Business Statistics, Data Structures and Algorithms, Machine Learning, Object-Oriented Programming, Software Engineering and System Design, and Social Media Mining"
       ],
-      "skills": ["Research", "Communication", "Project work"]
-   },
-   {
-      "id": 2,
-      "date": "Add another timeline",
-      "title": "Another credential or milestone",
-      "institution": "Organization name",
-      "institutionType": "Course, fellowship, internship prep, or school",
-      "location": "Location",
-      "cgpa": "",
-      "percentage": "",
-      "display_text": "Optional second education entry",
-      "skills": ["Teamwork", "Documentation", "Presentation"]
+      "skills": [
+         "Machine Learning",
+         "Software Engineering",
+         "Data Structures and Algorithms",
+         "System Design",
+         "Social Media Mining"
+      ]
    }
 ]

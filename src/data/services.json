@@ -3,55 +3,55 @@
       "id": 1,
       "title": "Full-Stack Development",
       "list": [
-         "Responsive interface design",
-         "Reusable components",
-         "Static and interactive web pages",
-         "Clean content architecture",
-         "Frontend polish and iteration"
+         "Interactive AI product prototypes",
+         "Next.js and React interfaces",
+         "FastAPI backend integration",
+         "Dashboard and data app development",
+         "Rapid hackathon delivery"
       ]
    },
    {
       "id": 2,
       "title": "Cloud & DevOps",
       "list": [
-         "GitHub Pages deployment",
-         "CI/CD workflow setup",
-         "Release automation",
-         "Basic hosting configuration",
-         "Deployment troubleshooting"
+         "AWS Lambda workflows",
+         "Databricks and Spark pipelines",
+         "Dockerized development",
+         "Vercel deployment",
+         "GitHub-based delivery"
       ]
    },
    {
       "id": 3,
       "title": "AI/ML & MLOps",
       "list": [
-         "AI-assisted workflow experimentation",
-         "Prompt iteration",
-         "Automation exploration",
-         "Data storytelling",
-         "Practical experimentation"
+         "Retrieval-augmented generation",
+         "NLP and explainable AI",
+         "Computer vision with YOLOv8",
+         "Responsible AI evaluation",
+         "Multimodal experimentation"
       ]
    },
    {
       "id": 4,
       "title": "AI Agents & Tooling",
       "list": [
-         "Developer workflow improvements",
-         "Tool evaluation",
-         "Small automation helpers",
-         "Productivity-oriented experiments",
-         "AI-enabled prototyping"
+         "Agentic AI exploration",
+         "Gemini API workflows",
+         "Synthetic data generation",
+         "Prompt chaining and orchestration",
+         "Research tooling"
       ]
    },
    {
       "id": 5,
       "title": "Cloud Consulting",
       "list": [
-         "Architecture review",
-         "Portfolio structure planning",
-         "Platform selection",
-         "Deployment decisions",
-         "Practical implementation tradeoffs"
+         "AI system architecture planning",
+         "Model and API selection",
+         "Deployment tradeoff analysis",
+         "Workflow reliability improvements",
+         "Data access design"
       ]
    },
    {
@@ -59,10 +59,10 @@
       "title": "Competitive Programming",
       "list": [
          "Analytical problem solving",
-         "Debugging under pressure",
-         "Pattern recognition",
-         "Iterative improvement",
-         "Clear technical communication"
+         "Data structures and algorithms",
+         "Systematic debugging",
+         "Fast iteration under deadlines",
+         "Technical communication"
       ]
    }
 ]

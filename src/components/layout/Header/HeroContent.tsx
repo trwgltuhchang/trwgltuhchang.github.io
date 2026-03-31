@@ -6,7 +6,7 @@ import { MONO_FONT } from "@/constants/theme";
 import HeroStats from "./HeroStats";
 import HeroSocial from "./HeroSocial";
 
-const PRIMARY_LINK = "https://github.com/trwgltuhchang";
+const PRIMARY_LINK = "/Resume-TrangTruong.pdf";
 
 const HeroContent = () => {
    const [roleIndex, setRoleIndex] = useState(0);
@@ -52,7 +52,7 @@ const HeroContent = () => {
                }}
             >
                <span className="w-2 h-2 rounded-full bg-accent-green animate-glow-pulse" />
-               {"// Personal portfolio starter on GitHub Pages"}
+               {"// AI/ML researcher and builder at Arizona State University"}
                <span className="animate-blink">|</span>
             </span>
          </motion.div>
@@ -103,13 +103,12 @@ const HeroContent = () => {
             </motion.button>
             <motion.a
                href={PRIMARY_LINK}
-               target="_blank"
-               rel="noopener noreferrer"
+               download
                className="btn-outline text-sm"
                whileHover={{ scale: 1.04 }}
                whileTap={{ scale: 0.97 }}
             >
-               View GitHub
+               Download Resume
             </motion.a>
          </motion.div>
 

@@ -1,38 +1,42 @@
 {
    "name": "Trang Truong",
-   "title": "Personal Portfolio",
-   "location": "Open to new opportunities",
+   "title": "Business Data Analytics Student and AI/ML Researcher",
+   "location": "Arizona State University",
    "contact": {
       "email": "trangtruong.071105@gmail.com",
-      "phone": "",
-      "linkedin": "",
+      "phone": "(650) 267-1710",
+      "linkedin": "trangtruong11",
       "github": "trwgltuhchang"
    },
    "roles": [
-      "Portfolio owner",
-      "Builder in progress",
-      "React and Vite learner",
-      "Open source profile curator"
+      "Business Data Analytics Student",
+      "Undergraduate Researcher",
+      "AI/ML Builder",
+      "Hackathon Winner"
    ],
    "about": {
       "greeting": "Hi, my name is Trang Truong.",
-      "current_role": "This portfolio is currently being customized from a React template for GitHub Pages.",
-      "specialization": "Use this section to describe your focus areas, technical strengths, and the kind of work you want to be known for.",
-      "education": "Replace this line with your school, training, certifications, or the learning path that best represents you.",
-      "competitive_programming": "Swap this card with any additional highlight: research, freelance work, leadership, awards, or a short personal statement."
+      "current_role": "I am an undergraduate researcher at BullyBlocker, where I optimize LLM-based cyberbullying detection, build explainable NLP workflows, and design AI systems for safer online interactions.",
+      "specialization": "My work focuses on machine learning, NLP, retrieval-augmented systems, multimodal AI, and practical deployment using tools like FastAPI, Docker, FAISS, Hugging Face, and cloud APIs.",
+      "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.83 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
+      "competitive_programming": "Recent highlights include winning Rice Datathon 2026 with EduTag and winning Vandyhacks XII with WALL-E, two projects centered on real-world AI systems."
    },
    "statistics": {
-      "projects": "4",
-      "sections": "9",
-      "starter_template": "1",
-      "github_pages": "1"
+      "gpa": "3.83",
+      "hackathon_wins": "2",
+      "projects": "3",
+      "research_roles": "1"
    },
-   "languages": [
-      { "name": "English", "level": "Professional Working" }
-   ],
+   "languages": [],
    "social_profiles": [
       {
          "id": 1,
+         "name": "LinkedIn",
+         "link": "https://www.linkedin.com/in/trangtruong11/",
+         "icon": "BsLinkedin"
+      },
+      {
+         "id": 2,
          "name": "GitHub",
          "link": "https://github.com/trwgltuhchang",
          "icon": "FaGithub"
@@ -40,6 +44,6 @@
    ],
    "site": {
       "counter_namespace": "trwgltuhchang-portfolio",
-      "tech_stack": ["React 19", "Vite 7", "Tailwind v4", "Three.js", "Motion"]
+      "tech_stack": ["Python", "LLMs", "FastAPI", "Next.js", "Docker"]
    }
 }

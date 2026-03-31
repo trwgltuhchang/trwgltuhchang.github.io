@@ -71,15 +71,14 @@ describe("Data files", () => {
          expect(p.id).toBeDefined();
          expect(p.title).toBeTruthy();
          expect(p.description).toBeTruthy();
-         expect(p.github).toBeTruthy();
+         expect(Boolean(p.github) || Boolean(p.live)).toBe(true);
          expect(Array.isArray(p.tools_tech)).toBe(true);
       }
    });
 
-   it("loads certifications with valid badge fields", async () => {
+   it("certification data has valid badge fields when present", async () => {
       const { getCertifications } = await import("@data/dataLoader");
       const certs = getCertifications();
-      expect(certs.length).toBeGreaterThan(0);
       for (const c of certs) {
          expect(c.badgeId).toBeTruthy();
          expect(c.badgeUrl).toContain("credly.com");

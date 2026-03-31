@@ -1,43 +1,20 @@
 {
-  "certifications": [
-    {
-      "id": 1,
-      "name": "Portfolio Setup Placeholder",
-      "type": "Industry Certification",
-      "issuer": "Replace with your real issuer",
-      "issueDate": "2026-03-30",
-      "badgeId": "starter-badge-1",
-      "badgeUrl": "https://www.credly.com/",
-      "level": "Starter",
-      "imageUrl": "/badge-placeholder.svg"
-    }
-  ],
-  "learning_badges": [
-    {
-      "id": 1,
-      "name": "Learning Badge Placeholder",
-      "type": "Learning Badge",
-      "issuer": "Replace with your real issuer",
-      "issueDate": "2026-03-30",
-      "badgeId": "starter-learning-1",
-      "badgeUrl": "https://www.credly.com/",
-      "imageUrl": "/badge-placeholder.svg"
-    }
-  ],
+  "certifications": [],
+  "learning_badges": [],
   "achievements": [
     {
       "id": 1,
-      "title": "Portfolio launched on GitHub Pages",
-      "organizer": "GitHub",
-      "date": "March 2026",
-      "type": "Milestone"
+      "title": "Winner - Rice Datathon 2026 (EduTag)",
+      "organizer": "Rice Datathon",
+      "date": "January 2026",
+      "type": "Competition"
     },
     {
       "id": 2,
-      "title": "Template adapted for personal use",
-      "organizer": "Self-directed project",
+      "title": "Winner - Vandyhacks XII (WALL-E)",
+      "organizer": "Vandyhacks XII",
       "date": "March 2026",
-      "type": "Project"
+      "type": "Hackathon"
     }
   ],
   "coding_platform_stats": {}

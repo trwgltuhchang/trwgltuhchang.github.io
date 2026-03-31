@@ -84,7 +84,7 @@ const About = () => {
                            fontWeight: 500,
                         }}
                      >
-                        currently customizing this portfolio starter
+                        currently researching LLM-based cyberbullying detection
                      </span>
                   </div>
 

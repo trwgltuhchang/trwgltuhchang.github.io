@@ -1,6 +1,29 @@
 {
    "featured_projects": [
       {
+         "id": 11,
+         "title": "EleVox",
+         "description": "Bioacoustic signal-recovery system that separates elephant rumbles from heavy environmental noise to recover interpretable signals about behavior, stress, and movement.",
+         "date": "April 2026",
+         "tools_tech": [
+            "Python",
+            "React",
+            "U-Net",
+            "DigitalOcean"
+         ],
+         "features": [
+            "Built for HackSMU VII as a bioacoustics-focused AI project",
+            "Used a category-aware harmonic-plus-noise pipeline to separate elephant calls from vehicles, generators, and aircraft noise",
+            "Processed annotated field recordings and recovered biologically meaningful low-frequency rumble structure",
+            "Won Best Use of DigitalOcean Gradient AI"
+         ],
+         "github": "https://github.com/dothanhtam91/EleVox",
+         "live": "",
+         "achievement": "Winner · Best Use of DigitalOcean Gradient AI",
+         "team": "HackSMU VII Team",
+         "organization": "HackSMU VII"
+      },
+      {
          "id": 1,
          "title": "WALL-E",
          "description": "Hands-free assistive robotics system that lets users control a 3D-printed robotic arm with EEG signals, eye gaze, and head movement.",
@@ -96,6 +119,28 @@
       }
    ],
    "collaborative_projects": [
+      {
+         "id": 12,
+         "title": "Catalyzers.",
+         "description": "Sustainable shopping assistant that recommends better clothing fit and confidence scores to reduce unnecessary ecommerce returns.",
+         "date": "April 2026",
+         "tools_tech": [
+            "JavaScript",
+            "Gemini",
+            "Gemini 2.5 Flash",
+            "Vercel"
+         ],
+         "features": [
+            "Built for Innovation Hacks 2.0 - 2026 to address waste and cost from online retail returns",
+            "Analyzed purchase history, body-fit inputs, reviews, and product metadata to estimate fit confidence",
+            "Combined a fast scoring engine with Gemini-generated recommendation explanations",
+            "Shipped as a lightweight web-widget prototype backed by a public GitHub repo"
+         ],
+         "github": "https://github.com/RoboX2020/Catalyzers",
+         "live": "",
+         "team": "Innovation Hacks Team",
+         "organization": "Innovation Hacks 2.0 - 2026"
+      },
       {
          "id": 10,
          "title": "Be My Voices",

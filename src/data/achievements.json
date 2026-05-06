@@ -25,9 +25,9 @@
     },
     {
       "id": 4,
-      "title": "Knight Badge - LeetCode",
+      "title": "Knight Badge - LeetCode (Top 2.37%)",
       "organizer": "LeetCode",
-      "date": "March 2026",
+      "date": "May 2026",
       "type": "Coding Profile"
     }
   ],
@@ -35,15 +35,15 @@
     "leetcode": {
       "url": "https://leetcode.com/u/trangtruong11/",
       "profileUrl": "https://leetcode.com/u/trangtruong11/",
-      "best_rating": 1901,
+      "best_rating": 2012,
       "badge": "Knight",
-      "problems_solved": 53,
-      "contests": 2,
-      "global_ranking": 36033,
-      "top_percentage": 4.34,
-      "easy_solved": 43,
-      "medium_solved": 9,
-      "hard_solved": 1,
+      "problems_solved": 61,
+      "contests": 3,
+      "global_ranking": 19875,
+      "top_percentage": 2.37,
+      "easy_solved": 47,
+      "medium_solved": 12,
+      "hard_solved": 2,
       "displayStats": [
         "best_rating",
         "badge",

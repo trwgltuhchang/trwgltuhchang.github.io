@@ -36,7 +36,7 @@ const PreloaderContent = ({ displayProgress }: PreloaderContentProps) => {
             }}
          />
 
-         {/* SG Logo */}
+         {/* TT Logo */}
          <motion.div
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -53,7 +53,7 @@ const PreloaderContent = ({ displayProgress }: PreloaderContentProps) => {
                zIndex: 1,
             }}
          >
-            {"<SG />"}
+            {"<TT />"}
          </motion.div>
 
          {/* Progress bar */}

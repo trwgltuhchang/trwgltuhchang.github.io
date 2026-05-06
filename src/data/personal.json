@@ -15,20 +15,20 @@
       "Hackathon Winner"
    ],
    "about": {
-      "greeting": "Hi, my name is Trang Truong.",
+      "greeting": "Hi, My name is Trang Truong.",
       "current_role": "I am an undergraduate researcher at BullyBlocker, where I optimize LLM-based cyberbullying detection, build explainable NLP workflows, and design AI systems for safer online interactions.",
       "specialization": "My work focuses on machine learning, NLP, retrieval-augmented systems, multimodal AI, and practical deployment using tools like FastAPI, Docker, FAISS, Hugging Face, and cloud APIs.",
       "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.83 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
-      "competitive_programming": "Recent highlights include three hackathon wins with WALL-E, EduTag, and ThreeByte, along with project work like ChronosVR centered on real-world AI systems."
+      "competitive_programming": "Recent highlights include reaching a 2012 LeetCode contest rating with a Knight badge and a top 2.37% global standing, alongside three hackathon wins with WALL-E, EduTag, and ThreeByte."
    },
    "statistics": {
       "gpa": "3.83",
       "hackathon_wins": "3",
       "projects": "9",
       "research_roles": "1",
-      "leetcode_rating": "1901",
+      "leetcode_rating": "2012",
       "leetcode_level": "Knight",
-      "leetcode_top_percent": "4.34"
+      "leetcode_top_percent": "2.37"
     },
    "languages": [],
    "social_profiles": [

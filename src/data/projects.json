@@ -97,6 +97,31 @@
    ],
    "collaborative_projects": [
       {
+         "id": 10,
+         "title": "Be My Voices",
+         "description": "Accessibility-focused communication system for stroke and ALS patients that turns fragmented speech and live emotional brainwave signals into clearer, expressive audio in the patient's own voice.",
+         "date": "April 2026",
+         "tools_tech": [
+            "Python",
+            "FastAPI",
+            "React",
+            "PostgreSQL",
+            "Gemini",
+            "ElevenLabs"
+         ],
+         "features": [
+            "Built for Hack the Pulse to restore communication for users affected by speech and motor impairments",
+            "Combined fragmented speech input with live emotional brainwave signals to generate more expressive output",
+            "Used the patient's own voice as the playback target for a more personal assistive experience",
+            "Won Best Use of ElevenLabs"
+         ],
+         "github": "https://github.com/hrhuynguyen/be-my-voices/",
+         "live": "",
+         "achievement": "Winner · Best Use of ElevenLabs",
+         "team": "Hack the Pulse Team",
+         "organization": "Hack the Pulse"
+      },
+      {
          "id": 4,
          "title": "LyoText",
          "description": "EEG-assisted communication system that turns brain signals into text with AI-assisted intent decoding and smart word suggestions.",

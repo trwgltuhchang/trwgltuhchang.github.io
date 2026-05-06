@@ -1,6 +1,8 @@
 import { motion } from "motion/react";
 import { ArrowUpRight, Trophy, Code, Star } from "lucide-react";
-import { FaGithub } from "react-icons/fa6";
+import type { IconType } from "react-icons";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { SiDevpost } from "react-icons/si";
 import { getCodingPlatformStats } from "@data/dataLoader";
 import { staggerContainer, fadeInUp } from "@utils/animations";
 import {
@@ -49,12 +51,55 @@ interface CodingProfilesProps {
    githubUsername: string;
 }
 
+interface ProfileCardConfig {
+   key: string;
+   label: string;
+   value: string;
+   subtitle: string;
+   href: string;
+   color: string;
+   icon: IconType;
+   ctaLabel: string;
+}
+
 const CodingProfiles = ({ githubUsername }: CodingProfilesProps) => {
    const isMobile = useMediaQuery("(max-width: 768px)");
    const stats = getCodingPlatformStats();
    const entries = Object.entries(stats).filter(
       ([key]) => key in PLATFORM_CONFIG,
    );
+   const profileCards: ProfileCardConfig[] = [
+      {
+         key: "github",
+         label: "GitHub",
+         value: githubUsername,
+         subtitle: "Open Source Contributions",
+         href: `https://github.com/${githubUsername}`,
+         color: TEXT_PRIMARY,
+         icon: FaGithub,
+         ctaLabel: "View Profile",
+      },
+      {
+         key: "linkedin",
+         label: "LinkedIn",
+         value: "Trang Truong",
+         subtitle: "Professional Network",
+         href: "https://www.linkedin.com/in/trangtruong11/",
+         color: "#0a66c2",
+         icon: FaLinkedin,
+         ctaLabel: "Connect",
+      },
+      {
+         key: "devpost",
+         label: "Devpost",
+         value: "Trang Truong",
+         subtitle: "Hackathon Portfolio",
+         href: "https://devpost.com/trangtruong-071105",
+         color: "#003e54",
+         icon: SiDevpost,
+         ctaLabel: "View Profile",
+      },
+   ];
 
    const cardStyle = {
       padding: "20px 16px",
@@ -88,59 +133,71 @@ const CodingProfiles = ({ githubUsername }: CodingProfilesProps) => {
                display: "grid",
                gridTemplateColumns: isMobile
                   ? "repeat(2, 1fr)"
-                  : `repeat(${entries.length + 1}, 1fr)`,
+                  : `repeat(${entries.length + profileCards.length}, 1fr)`,
                gap: 12,
             }}
          >
-            {/* GitHub profile card */}
-            <motion.a
-               href={`https://github.com/${githubUsername}`}
-               target="_blank"
-               rel="noopener noreferrer"
-               className="glass-card"
-               variants={fadeInUp}
-               whileHover={{ y: -4, borderColor: "rgba(165,165,192,0.3)" }}
-               style={cardStyle}
-            >
-               <FaGithub size={20} style={{ color: TEXT_PRIMARY }} />
-               <span
-                  style={{
-                     fontSize: 12,
-                     fontWeight: 600,
-                     color: TEXT_PRIMARY,
-                     textTransform: "uppercase",
-                     letterSpacing: "0.04em",
-                  }}
-               >
-                  GitHub
-               </span>
-               <span
-                  style={{
-                     fontSize: 22,
-                     fontWeight: 700,
-                     fontFamily: MONO_FONT,
-                     color: TEXT_PRIMARY,
-                     lineHeight: 1,
-                  }}
-               >
-                  {githubUsername}
-               </span>
-               <span style={{ fontSize: 11, color: TEXT_MUTED }}>
-                  Open Source Contributions
-               </span>
-               <span
-                  style={{
-                     display: "inline-flex",
-                     alignItems: "center",
-                     gap: 4,
-                     fontSize: 11,
-                     color: TEXT_PRIMARY,
-                     marginTop: 4,
-                  }}
-               >
-                  View Profile <ArrowUpRight size={12} />
-               </span>
-            </motion.a>
+            {profileCards.map((profile) => {
+               const Icon = profile.icon;
+
+               return (
+                  <motion.a
+                     key={profile.key}
+                     href={profile.href}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="glass-card"
+                     variants={fadeInUp}
+                     whileHover={{
+                        y: -4,
+                        borderColor:
+                           profile.color === TEXT_PRIMARY
+                              ? "rgba(165,165,192,0.3)"
+                              : `${profile.color}40`,
+                     }}
+                     style={cardStyle}
+                  >
+                     <Icon size={20} style={{ color: profile.color }} />
+                     <span
+                        style={{
+                           fontSize: 12,
+                           fontWeight: 600,
+                           color: profile.color,
+                           textTransform: "uppercase",
+                           letterSpacing: "0.04em",
+                        }}
+                     >
+                        {profile.label}
+                     </span>
+                     <span
+                        style={{
+                           fontSize: 22,
+                           fontWeight: 700,
+                           fontFamily: MONO_FONT,
+                           color: TEXT_PRIMARY,
+                           lineHeight: 1,
+                        }}
+                     >
+                        {profile.value}
+                     </span>
+                     <span style={{ fontSize: 11, color: TEXT_MUTED }}>
+                        {profile.subtitle}
+                     </span>
+                     <span
+                        style={{
+                           display: "inline-flex",
+                           alignItems: "center",
+                           gap: 4,
+                           fontSize: 11,
+                           color: profile.color,
+                           marginTop: 4,
+                        }}
+                     >
+                        {profile.ctaLabel} <ArrowUpRight size={12} />
+                     </span>
+                  </motion.a>
+               );
+            })}
 
             {/* Coding platform cards */}
             {entries.map(([key, data]) => {

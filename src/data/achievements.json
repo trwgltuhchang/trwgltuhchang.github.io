@@ -32,6 +32,41 @@
     },
     {
       "id": 5,
+      "title": "3rd Place - Grizzly Hacks III (PocketGuru)",
+      "organizer": "Grizzly Hacks III",
+      "date": "2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 6,
+      "title": "Winner - Iteration Machine Special Prize (PocketGuru)",
+      "organizer": "DSH Hacks V1",
+      "date": "2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 7,
+      "title": "Winner - InterviewCake Special Award (PocketGuru)",
+      "organizer": "DSH Hacks V1",
+      "date": "2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 8,
+      "title": "Winner - MLH Best Use of Gemini API (CursorGPT)",
+      "organizer": "HackHCC: Code Runners",
+      "date": "2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 9,
+      "title": "Winner - Best Use of ElevenLabs (Be My Voices)",
+      "organizer": "Hook 'Em Hacks",
+      "date": "April 2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 10,
       "title": "Knight Badge - LeetCode (Top 2.37%)",
       "organizer": "LeetCode",
       "date": "May 2026",

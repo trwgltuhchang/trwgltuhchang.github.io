@@ -142,6 +142,49 @@
    ],
    "collaborative_projects": [
       {
+         "id": 14,
+         "title": "PocketGuru",
+         "description": "AI-powered study assistant that turns a photo of class notes into an instant study guide, flashcards, quiz, and tutor experience.",
+         "date": "2026",
+         "tools_tech": [
+            "Vite",
+            "AI Tutor",
+            "Computer Vision"
+         ],
+         "features": [
+            "Transforms uploaded notes into exam-preparation materials in seconds",
+            "Won Third Place at Grizzly Hacks III",
+            "Won the Iteration Machine Special Prize and InterviewCake Special Award at DSH Hacks V1"
+         ],
+         "github": "https://github.com/hrhuynguyen/PocketGuru/tree/main",
+         "live": "https://devpost.com/software/pocketguru",
+         "achievement": "Winner · Third Place + 2 Special Prizes",
+         "team": "PocketGuru Team",
+         "organization": "Grizzly Hacks III / DSH Hacks V1"
+      },
+      {
+         "id": 15,
+         "title": "CursorGPT",
+         "description": "Point-and-speak computing interface where gestures provide context, voice provides intent, and AI completes the task.",
+         "date": "2026",
+         "tools_tech": [
+            "FastAPI",
+            "Gemini 2.5",
+            "Gemini Live API",
+            "Google ADK"
+         ],
+         "features": [
+            "Combines gesture and voice input for hands-free, context-aware computer control",
+            "Uses Gemini services to interpret commands and execute user intent",
+            "Won MLH Best Use of Gemini API at HackHCC: Code Runners"
+         ],
+         "github": "https://github.com/hrhuynguyen/Desktop-Copilot",
+         "live": "https://devpost.com/software/cursorgpt",
+         "achievement": "Winner · MLH Best Use of Gemini API",
+         "team": "CursorGPT Team",
+         "organization": "HackHCC: Code Runners"
+      },
+      {
          "id": 12,
          "title": "Catalyzers.",
          "description": "Sustainable shopping assistant that recommends better clothing fit and confidence scores to reduce unnecessary ecommerce returns.",
@@ -185,8 +228,8 @@
          "github": "https://github.com/hrhuynguyen/be-my-voices/",
          "live": "",
          "achievement": "Winner · Best Use of ElevenLabs",
-         "team": "Hack the Pulse Team",
-         "organization": "Hack the Pulse"
+         "team": "Hook 'Em Hacks Team",
+         "organization": "Hook 'Em Hacks"
       },
       {
          "id": 4,

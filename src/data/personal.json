@@ -1,6 +1,6 @@
 {
    "name": "Trang Truong",
-   "title": "Business Data Analytics Student and AI/ML Researcher",
+   "title": "Applied AI/ML Candidate",
    "location": "Arizona State University",
    "contact": {
       "email": "trangtruong.071105@gmail.com",
@@ -18,13 +18,13 @@
       "greeting": "Hi, My name is Trang Truong.",
       "current_role": "I am an undergraduate researcher at BullyBlocker, where I optimize LLM-based cyberbullying detection, build explainable NLP workflows, and design AI systems for safer online interactions.",
       "specialization": "My work focuses on machine learning, NLP, retrieval-augmented systems, multimodal AI, and practical deployment using tools like FastAPI, Docker, FAISS, Hugging Face, and cloud APIs.",
-      "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.83 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
-      "competitive_programming": "Recent highlights include reaching a 2012 LeetCode contest rating with a Knight badge and a top 2.37% global standing, alongside three hackathon wins with WALL-E, EduTag, and ThreeByte."
+      "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.72 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
+      "competitive_programming": "Recent highlights include a Bronze Medal in the 2026 NeuroGolf Championship on Kaggle, plus hackathon wins with WALL-E, EduTag, and ThreeByte."
    },
    "statistics": {
-      "gpa": "3.83",
+      "gpa": "3.72",
       "hackathon_wins": "3",
-      "projects": "12",
+      "projects": "13",
       "research_roles": "1",
       "leetcode_rating": "2012",
       "leetcode_level": "Knight",

@@ -25,6 +25,13 @@
     },
     {
       "id": 4,
+      "title": "Bronze Medal - The 2026 NeuroGolf Championship",
+      "organizer": "Kaggle",
+      "date": "April - July 2026",
+      "type": "Competition"
+    },
+    {
+      "id": 5,
       "title": "Knight Badge - LeetCode (Top 2.37%)",
       "organizer": "LeetCode",
       "date": "May 2026",

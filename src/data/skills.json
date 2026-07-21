@@ -23,7 +23,9 @@
       "Node.js",
       "REST API",
       "PostgreSQL",
+      "pgvector",
       "MySQL",
+      "NoSQL",
       "Supabase"
    ],
    "cloud_devops": [

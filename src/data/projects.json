@@ -1,6 +1,28 @@
 {
    "featured_projects": [
       {
+         "id": 13,
+         "title": "The 2026 NeuroGolf Championship",
+         "description": "Bronze Medal-winning Kaggle competition project focused on optimizing ONNX model portfolios for high-scoring, reproducible submissions.",
+         "date": "April 2026 - July 2026",
+         "tools_tech": [
+            "Python",
+            "ONNX",
+            "ONNX Runtime",
+            "NumPy",
+            "Kaggle"
+         ],
+         "features": [
+            "Designed 400 ONNX models that improved the portfolio score by 618%, from 1,036 to 7,436.96, through joint optimization of parameters, memory, and MACs",
+            "Built a reproducible model-compilation and evaluation pipeline for 941 leaderboard submissions with content-hashed provenance and ONNX correctness gates",
+            "Applied INT8 quantization, signed-logit encoding, crop-process-reconstruct architectures, and depthwise convolutions to reduce parameters by about 10x while preserving exact functional correctness"
+         ],
+         "github": "",
+         "live": "https://www.kaggle.com/competitions/neurogolf-2026/submissions",
+         "achievement": "Bronze Medal · Kaggle",
+         "organization": "Kaggle"
+      },
+      {
          "id": 11,
          "title": "EleVox",
          "description": "Bioacoustic signal-recovery system that separates elephant rumbles from heavy environmental noise to recover interpretable signals about behavior, stress, and movement.",

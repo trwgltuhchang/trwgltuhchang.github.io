@@ -19,11 +19,11 @@
       "current_role": "I am an undergraduate researcher at BullyBlocker, where I optimize LLM-based cyberbullying detection, build explainable NLP workflows, and design AI systems for safer online interactions.",
       "specialization": "My work focuses on machine learning, NLP, retrieval-augmented systems, multimodal AI, and practical deployment using tools like FastAPI, Docker, FAISS, Hugging Face, and cloud APIs.",
       "education": "I am pursuing a B.S. in Business Data Analytics at Arizona State University with a 3.72 GPA and coursework in machine learning, software engineering, system design, and social media mining.",
-      "competitive_programming": "Recent highlights include a Bronze Medal in the 2026 NeuroGolf Championship on Kaggle, plus hackathon wins with WALL-E, EduTag, and ThreeByte."
+      "competitive_programming": "Recent highlights include a Bronze Medal in the 2026 NeuroGolf Championship on Kaggle, plus seven winning hackathon projects listed on Devpost, including WALL-E, EduTag, and ThreeByte."
    },
    "statistics": {
       "gpa": "3.72",
-      "hackathon_wins": "3",
+      "hackathon_wins": "7",
       "projects": "15",
       "research_roles": "1",
       "leetcode_rating": "2012",

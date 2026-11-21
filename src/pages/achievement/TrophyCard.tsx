@@ -21,10 +21,17 @@ const PLACEMENT_COLORS: Record<string, string> = {
    "4th": TEXT_MUTED,
 };
 
-const ORDINAL_SUFFIX: Record<string, string> = {
-   "1": "st",
-   "2": "nd",
-   "3": "rd",
+const getOrdinal = (value: string): string => {
+   const number = Number(value);
+   const lastTwoDigits = number % 100;
+
+   if (lastTwoDigits >= 11 && lastTwoDigits <= 13) return `${number}th`;
+
+   const suffix =
+      ({ 1: "st", 2: "nd", 3: "rd" } as Record<number, string>)[number % 10] ??
+      "th";
+
+   return `${number}${suffix}`;
 };
 
 const splitTitle = (title: string): [string, string] => {
@@ -43,8 +50,7 @@ const parsePlacement = (
 
    const numMatch = /^(\d+)/.exec(prefix);
    if (numMatch && prefix.includes("Place")) {
-      const n = numMatch[1];
-      const ordinal = `${n}${ORDINAL_SUFFIX[n] ?? "th"}`;
+      const ordinal = getOrdinal(numMatch[1]);
       const color = PLACEMENT_COLORS[ordinal] ?? TEXT_MUTED;
       return { rank: ordinal, event, color };
    }
@@ -58,8 +64,12 @@ const TrophyCard = ({ item, index }: TrophyCardProps) => {
    const { rank, event, color } = parsePlacement(item.title);
 
    return (
-      <motion.div
+      <motion.a
          className="glass-card"
+         href={item.url}
+         target={item.url ? "_blank" : undefined}
+         rel={item.url ? "noreferrer" : undefined}
+         aria-label={item.url ? `View ${item.title}` : undefined}
          initial={{ opacity: 0, y: 25, scale: 0.97 }}
          whileInView={{ opacity: 1, y: 0, scale: 1 }}
          viewport={{ once: false, margin: "0px 0px -40px 0px" }}
@@ -79,7 +89,8 @@ const TrophyCard = ({ item, index }: TrophyCardProps) => {
             alignItems: "center",
             gap: 16,
             borderLeft: `3px solid ${color}`,
-            cursor: "default",
+            cursor: item.url ? "pointer" : "default",
+            textDecoration: "none",
          }}
       >
          {/* Rank / Placement */}
@@ -174,7 +185,7 @@ const TrophyCard = ({ item, index }: TrophyCardProps) => {
                {item.type}
             </span>
          )}
-      </motion.div>
+      </motion.a>
    );
 };
 

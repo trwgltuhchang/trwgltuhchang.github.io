@@ -71,6 +71,21 @@
       "organizer": "LeetCode",
       "date": "May 2026",
       "type": "Coding Profile"
+    },
+    {
+      "id": 11,
+      "title": "401st Place - RSNA Knee Abnormality Detection",
+      "organizer": "Kaggle × RSNA",
+      "date": "2026",
+      "type": "Competition",
+      "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/401st-labels-not-backbones-were-our-bottleneck"
+    },
+    {
+      "id": 12,
+      "title": "Kaggle Master",
+      "organizer": "Kaggle",
+      "date": "November 2026",
+      "type": "Data Science Profile"
     }
   ],
   "coding_platform_stats": {

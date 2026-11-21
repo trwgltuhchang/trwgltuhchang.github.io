@@ -33,6 +33,7 @@ export interface Achievement {
    organizer: string;
    date: string;
    type: string;
+   url?: string;
 }
 
 export type CodingPlatformStats = Record<string, unknown>;

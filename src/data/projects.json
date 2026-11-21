@@ -1,6 +1,27 @@
 {
    "featured_projects": [
       {
+         "id": 16,
+         "title": "RSNA Knee Abnormality Detection",
+         "description": "Bronze Medal-winning Kaggle solution that used soft image-corrected labels, OAI data, and rank blending to achieve a 0.943 private leaderboard score.",
+         "date": "2026",
+         "tools_tech": [
+            "Python",
+            "Computer Vision",
+            "Medical Imaging",
+            "Kaggle"
+         ],
+         "features": [
+            "Used soft image-corrected labels to improve training-signal quality",
+            "Incorporated Osteoarthritis Initiative (OAI) data into the modeling workflow",
+            "Rank-blended public and custom models for a 0.943 private leaderboard score"
+         ],
+         "github": "",
+         "live": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/401st-labels-not-backbones-were-our-bottleneck",
+         "achievement": "Bronze Medal · Kaggle",
+         "organization": "Kaggle × RSNA"
+      },
+      {
          "id": 13,
          "title": "The 2026 NeuroGolf Championship",
          "description": "Bronze Medal-winning Kaggle competition project focused on optimizing ONNX model portfolios for high-scoring, reproducible submissions.",
